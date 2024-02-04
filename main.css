@@ -6,6 +6,7 @@
     font-weight: bold;
     font-size: large; 
     padding: 10px;
+    margin: 0;
 }
 .Links {
     background-color: darkblue;
@@ -16,5 +17,27 @@
     padding-left: 100px;
 }
 .Links a:visited {
-    color: red; 
+    color: green; 
+}
+.Links a:hover {
+    color: yellow;
+}
+#Images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: darkslategrey;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(255, 2, 2);
+    padding-left: 300px;
+}
+
+#Images img {
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 100px;
+    border-radius: 50%;
 }
