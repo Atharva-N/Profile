@@ -40,4 +40,5 @@
     margin-left: 50px;
     margin-right: 100px;
     border-radius: 50%;
+    align-items: flex-end;
 }
