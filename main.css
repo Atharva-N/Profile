@@ -1,45 +1,59 @@
-.Mark {
-    background-color: lightgray;
-    height: 35px;
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: large; 
-    padding: 10px;
-    margin: 0;
+a {
+    color: white;
 }
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: green;
+}
+
 .Links {
     background-color: darkblue;
-    color: red;
+    color: white;
     font-size: medium;
     font-family: sans-serif;
-    padding: 10px;
+    padding: 25px;
     padding-left: 100px;
 }
-.Links a:visited {
-    color: green; 
-}
-.Links a:hover {
-    color: yellow;
+#bl {
+    color: white;
+    font-weight: bold;
+    background-color: blue;
 }
 #Images {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: darkslategrey;
+    flex-direction: row; /* Stack children horizontally */
+    align-items: center; /* Center children vertically */
+    justify-content: space-between; /* Push items to the sides */
+    padding: 10px;
     font-family: cursive;
     font-size: large;
     font-weight: bolder;
-    color: rgb(255, 2, 2);
+    color: black;
     padding-left: 300px;
     height: auto;
+    text-align: left;
 }
 
 #Images img {
     height: 300px;
-    margin-left: 50px;
-    margin-right: 100px;
-    border-radius: 50%;
-    align-items: flex-end;
+    width: auto; /* Make the width adjust automatically to maintain aspect ratio */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
 }
