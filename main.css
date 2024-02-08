@@ -1,15 +1,12 @@
 a {
     color: white;
 }
-
 a:visited {
     color: grey;
 }
-
 a:hover {
     color: green;
 }
-
 .Links {
     background-color: darkblue;
     color: white;
@@ -23,11 +20,15 @@ a:hover {
     font-weight: bold;
     background-color: blue;
 }
+body {
+    font-family: sans-serif;
+}
 #Images {
+    background-color: white;
     display: flex;
-    flex-direction: row; /* Stack children horizontally */
-    align-items: center; /* Center children vertically */
-    justify-content: space-between; /* Push items to the sides */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px;
     font-family: cursive;
     font-size: large;
@@ -37,23 +38,19 @@ a:hover {
     height: auto;
     text-align: left;
 }
-
 #Images img {
     height: 300px;
-    width: auto; /* Make the width adjust automatically to maintain aspect ratio */
+    width: auto;
 }
-
 table {
     width: 100%;
     border-collapse: collapse;
 }
-
 table, th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
 }
-
 th {
     background-color: #f2f2f2;
 }
